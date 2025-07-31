@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 const Libertyville: React.FC = () => {
   useEffect(() => {
@@ -64,14 +64,14 @@ const Libertyville: React.FC = () => {
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <p className="text-lg text-gray-700 mb-6">
-                    Libertyville is a historic and charming community in Lake County, known for its excellent schools, 
-                    beautiful downtown area, and strong sense of community. As a trusted property management company 
-                    serving Libertyville, Manage369 understands the unique character and needs of this established area.
+                    Libertyville is a charming suburban community in Lake County, known for its historic downtown, 
+                    excellent schools, and beautiful residential neighborhoods. As a trusted property management 
+                    company serving Libertyville, Manage369 understands the character of this desirable area.
                   </p>
                   <p className="text-lg text-gray-700 mb-6">
                     Our comprehensive property management services help property owners maximize their investments 
                     while ensuring residents enjoy well-maintained, professionally managed communities that preserve 
-                    Libertyville's historic charm and community values.
+                    Libertyville's small-town charm and community spirit.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -111,7 +111,7 @@ const Libertyville: React.FC = () => {
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">HOA Management</h3>
                   <p className="text-gray-700 mb-4">
                     Complete homeowners association management including board support, financial management, 
-                    and community maintenance coordination for Libertyville's established neighborhoods.
+                    and community maintenance coordination for Libertyville's charming residential communities.
                   </p>
                   <a href="/services/hoa-management" className="text-blue-600 hover:text-blue-800 font-semibold">
                     Learn More →
@@ -121,7 +121,7 @@ const Libertyville: React.FC = () => {
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">Condo Management</h3>
                   <p className="text-gray-700 mb-4">
                     Specialized condominium management services tailored to Libertyville's residential 
-                    properties and historic community character.
+                    properties and community-oriented lifestyle.
                   </p>
                   <a href="/services/condo-management" className="text-blue-600 hover:text-blue-800 font-semibold">
                     Learn More →
@@ -131,7 +131,7 @@ const Libertyville: React.FC = () => {
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">Townhome Management</h3>
                   <p className="text-gray-700 mb-4">
                     Professional townhome community management with focus on maintaining property values 
-                    and preserving the community spirit that makes Libertyville special.
+                    and the historic charm that makes Libertyville special.
                   </p>
                   <a href="/services/townhome-management" className="text-blue-600 hover:text-blue-800 font-semibold">
                     Learn More →
@@ -189,3 +189,6 @@ const Libertyville: React.FC = () => {
 };
 
 export default Libertyville;
+
+
+
