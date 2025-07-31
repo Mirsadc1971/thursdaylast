@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 const Bensenville: React.FC = () => {
   useEffect(() => {
@@ -189,3 +189,4 @@ const Bensenville: React.FC = () => {
 };
 
 export default Bensenville;
+
