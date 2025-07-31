@@ -5,11 +5,12 @@
 
 [build.environment]
   NODE_VERSION = "18"
-  NPM_FLAGS = "--legacy-peer-deps"
+  # NPM_FLAGS = "--legacy-peer-deps"
 
 [dev]
   command = "npm run dev"
   port = 4321
   publish = "dist"
+
 
 
